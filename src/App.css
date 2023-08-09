@@ -1,0 +1,44 @@
+.App {
+  background-color: #f5f5f5;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 90vh;
+  padding-bottom: 150px;
+}
+
+.form {
+  width: 450px;
+  box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.form-content {
+  padding-left: 12%;
+  padding-right: 12%;
+}
+
+.form-title {
+  text-align: center;
+  margin-bottom: 1em;
+  font-size: 24px;
+  color: rgb(34, 34, 34);
+  font-weight: 800;
+}
+label {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(34, 34, 34);
+}
+.forget {
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
