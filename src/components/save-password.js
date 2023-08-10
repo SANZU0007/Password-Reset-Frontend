@@ -15,7 +15,7 @@ const SavePassword = () => {
 
     try {
       const response = await axios.post(
-        "https://reset-pass.onrender.com/savepassword",
+        "https://reset-pass.onrender.com/api/savepassword",
         {
           NewPassword: password,
           resetToken,

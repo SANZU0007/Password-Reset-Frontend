@@ -37,7 +37,7 @@ const Register = () => {
         setPassword("")
       );
       console.log(response.data);
-      navigate(-1)
+      navigate(`/`);
     } catch (error) {
       console.error(error);
     }
