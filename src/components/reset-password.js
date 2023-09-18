@@ -17,7 +17,7 @@ const ResetPassword = () => {
 
     try {
       const response = await axios.post(
-        "https://reset-pass.onrender.com/resetpassword",
+        "https://reset-pass.onrender.com/api/resetpassword",
         {
           Email: email,
         }
